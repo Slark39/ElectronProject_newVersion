@@ -1,0 +1,18 @@
+.wrapper{
+    @apply flex flex-row justify-between items-center;
+    .logo{
+        @apply w-full mr-2;
+        .logoImage{
+            @apply w-[100px] h-[100px];
+        }
+    }
+    .text {
+        @apply flex flex-col justify-between items-center;
+        .subText1{
+            @apply text-[40px] font-bold text-white;
+        }
+        .subText2{
+            @apply text-[20px] text-primaryColor ;
+        }
+    }
+}

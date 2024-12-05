@@ -1,0 +1,24 @@
+.wrapper{
+    @apply flex flex-row justify-between items-center mt-5 w-full text-white;
+    .state{
+        @apply flex flex-row justify-center items-center basis-[85%] mr-3 h-[50px] bg-tableColor rounded-lg;
+        .connet{
+            @apply mr-3;
+        }
+        .usage{
+            @apply mr-3;
+        }
+        .closing{
+            @apply mr-3;
+        }
+    }
+    .time{
+        @apply flex justify-center items-center bg-tableColor rounded-lg h-[50px] basis-[14%] mr-3 text-[30px];
+    }
+    .btn1{
+        @apply flex justify-center items-center bg-secondaryColor rounded-lg h-[50px] mr-3 basis-[5%] ;
+    }
+    .btn2{
+        @apply flex justify-center items-center bg-tableColor rounded-lg mr-3 h-[50px] basis-[5%];
+    }
+}

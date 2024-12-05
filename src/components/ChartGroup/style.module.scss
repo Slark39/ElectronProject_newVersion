@@ -1,0 +1,9 @@
+.wrapper {
+    @apply flex flex-row w-full justify-between items-center basis-[70%] mt-6 ;
+    .col1{
+        @apply flex flex-col justify-between items-center w-full mr-4;
+    }
+    .col2{
+        @apply flex flex-col justify-between items-center w-full ;
+    }
+}
