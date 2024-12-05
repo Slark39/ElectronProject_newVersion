@@ -4,7 +4,7 @@ import { Address, isAddressEqual } from "viem";
 import type {
   MarketFilterLongShortDirection,
   MarketFilterLongShortItemData,
-} from "components/Synthetics/TableMarketFilter/MarketFilterLongShort";
+} from "components/TableMarketFilter/MarketFilterLongShort";
 import { getContract } from "config/contracts";
 import { accountOrderListKey } from "config/dataStore";
 import { getWrappedToken } from "config/tokens";

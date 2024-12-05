@@ -6,7 +6,7 @@ import { TokensData } from "../tokens";
 import { OrderType, OrdersInfoData } from "./types";
 import { useOrders } from "./useOrders";
 import { getOrderInfo } from "./utils";
-import { MarketFilterLongShortItemData } from "components/Synthetics/TableMarketFilter/MarketFilterLongShort";
+import { MarketFilterLongShortItemData } from "components/TableMarketFilter/MarketFilterLongShort";
 
 export type AggregatedOrdersDataResult = {
   ordersInfoData?: OrdersInfoData;
