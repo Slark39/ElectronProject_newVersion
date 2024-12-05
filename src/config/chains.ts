@@ -1,5 +1,6 @@
 import { ethers } from "ethers";
 import sample from "lodash/sample";
+import 'vite/client';
 import type { NetworkMetadata } from "lib/wallets";
 import { isDevelopment } from "./env";
 import {
